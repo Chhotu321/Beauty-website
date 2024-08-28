@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Hero Banner */
+.hero-banner {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.skincare-hero {
+    background-image: url('skincare-hero.jpg'); /* Replace with your actual image */
+}
+
+.hero-banner .hero-content h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero-banner .hero-content p {
+    font-size: 24px;
+    margin: 10px 0 0;
+}
+
+/* Featured Collections */
+.featured-collections {
+    padding: 50px;
+    text-align: center;
+}
+
+.featured-collections h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.collection {
+    display: flex;
+    margin-bottom: 30px;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.collection img {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}
+
+.collection-details {
+    padding: 20px;
+    text-align: left;
+}
+
+.collection-details h3 {
+    font-size: 28px;
+    margin-top: 0;
+}
+
+.collection-details p {
+    margin: 15px 0;
+}
+
+.cta-button {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e55a5a;
+}
+
+/* Subscription CTA */
+.subscription-cta {
+    background-color: #ffecec;
+    padding: 50px;
+    text-align: center;
+}
+
+.subscription-cta h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.subscription-cta form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.subscription-cta input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.subscription-cta button {
+    padding: 10px 20px;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.subscription-cta button:hover {
+    background-color: #e55a5a;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-links a, .social-media a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover, .social-media a:hover {
+    color: #ff6b6b;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
